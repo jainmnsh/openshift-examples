@@ -42,7 +42,7 @@
         {
             "description": "Git source URI for application",
             "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/jboss-openshift/openshift-examples",
+            "value": "https://github.com/jainmnsh/openshift-examples",
             "required": true
         },
         {

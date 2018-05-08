@@ -89,6 +89,7 @@
             the JVM. For more information, see:
 
             http://activemq.apache.org/jmx.html
+            This is modified by Manish jain
         -->
         <managementContext>
             <managementContext createConnector="false" />
@@ -117,7 +118,8 @@
                     CONCENTRATOR_USER=<generated-user>
                     CONCENTRATOR_PASSWORD=<generated-password>
                 You'll have to inspect the container configuration to get the
-                user/password settings for the concentrator mesh. 
+                user/password settings for the concentrator mesh.
+                modified by manish
             -->
             <networkConnector name="concentrator"
                 uri="kube://${CONCENTRATOR_SERVICE}:61616/?transportType=tcp"
